@@ -1,0 +1,52 @@
+### GET メソッド
+GET http://dummy.restapiexample.com/api/v1/employee/1 HTTP/1.1
+
+### POST メソッド
+POST http://dummy.restapiexample.com/api/v1/create HTTP/1.1
+Content-Type: application/json
+
+{
+  "name": "Taro",
+  "salary": 300000,
+  "age": 40
+}
+
+### PUT メソッド
+PUT http://dummy.restapiexample.com/api/v1/update/21 HTTP/1.1
+Content-Type: application/json
+
+{
+  "name": "Ichiro",
+  "salary": 400000,
+  "age": 50
+}
+
+### DELETE メソッド
+DELETE http://dummy.restapiexample.com/api/v1/delete/2 HTTP/1.1
+
+### 変数を使用
+@param = topic:python
+GET https://api.github.com/search/repositories?q={{param}} HTTP/1.1
+
+### cURL リクエスト
+curl "http://dummy.restapiexample.com/api/v1/employees"
+
+### GraphQL リクエスト
+POST https://api.graph.cool/simple/v1/movies HTTP/1.1
+Content-Type: application/json
+Authorization: Basic user passwd
+X-REQUEST-TYPE: GraphQL
+
+query ($title: String!) {
+  movie: Movie(title: $title) {
+    title
+    actors {
+      name
+    }
+    releaseDate
+  }
+}
+
+{
+  "title": "Inception"
+}
