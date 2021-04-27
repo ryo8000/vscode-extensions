@@ -1,6 +1,7 @@
 # Visual Studio Code 拡張機能
 
 使ってみた Visual Studio Code の拡張機能です。
+
 基本的には各項目内で、上から順に良かった機能を並べています。
 
 ---
@@ -13,7 +14,8 @@
 
 #### [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
 
-- 拡張子に合わせてアイコンを表示してくれる。
+- ファイルの拡張子や、ディレクトリ名に応じたアイコンを表示してくれる。
+- 一見してどういったファイル・ディレクトリなのかが分かりやすくなる。
 - vscode-icons の方が人気だが個人的にはこちらの方が好み。
 
 ![fileIcons](https://raw.githubusercontent.com/PKief/vscode-material-icon-theme/master/images/fileIcons.png)
@@ -73,21 +75,22 @@
 #### [Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
 
 - 各種ファイルに対応したコードフォーマッター。
-- VSCode の設定「Format On Save」を ON にすることで、保存時にソースコードを自動で整形してくれる。
+- インストールしただけでは機能しない。VSCode の設定（settings.json）を編集する必要がある。
+- 設定されたルールに基づいて整形するのみであり、構文チェックは行わない。利用する言語の構文チェックを行う拡張機能と併用することを推奨。
 
 #### [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)
 
-- スペルミスを検出して、波線で表示してくれる。
+- スペルミスを検出して、波線で表示してくれる。タイプミス防止のためにも入れておくことを推奨。
 - パネルの問題タブにも表示される。
-- 「Ctrl + .」で候補の単語を表示し、スペルミスの単語を変換することができる。
+- command + .（Ctrl + .）で候補の単語を表示し、対象の単語を変換することができる。
 
 ![example](https://raw.githubusercontent.com/streetsidesoftware/vscode-spell-checker/master/packages/client/images/example.gif)
 
-#### [Bracket Pair Colorizer](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer)
+#### [Bracket Pair Colorizer 2](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer-2)
 
 - 括弧に色がつくようになる。ペアの括弧は同じ色になる。
-- ぱっと見でどの括弧がどれに対応するのかが分かりやすくなる。
-- 新たに [Bracket Pair Colorizer 2](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer-2) が出ているので、そちらをインストールすること。
+- 括弧の間にも同色の線が表示される。
+- どの括弧がペア関係にあるのかが分かりやすくなる。
 
 ![example](https://raw.githubusercontent.com/CoenraadS/BracketPair/master/images/example.png)
 
@@ -97,7 +100,8 @@
 
 #### [indent-rainbow](https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow)
 
-- インデントを虹色で表示してくれる。
+- インデントをカラーリングしてくれる。インデントの深さによって配色が変わる。
+- インデントの深さが分かりやすくなる。
 - インデントが揃ってなかったりタブとスペースが混在していると強調表示してくれる。
 
 ![example](https://raw.githubusercontent.com/oderwat/vscode-indent-rainbow/master/assets/example.png)
@@ -173,7 +177,7 @@ var enabled = false;
 #### [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)
 
 - Markdown を記述する際に便利なショートカットキーが使えるようになる。
-- 例）「Ctrl + B」で**太字**。「Alt + S」で~~取り消し線~~。
+- 例）Ctrl + B で**太字**。Alt + S で~~取り消し線~~。
 
 #### [Markdown Preview Enhanced](https://marketplace.visualstudio.com/items?itemName=shd101wyy.markdown-preview-enhanced)
 
@@ -224,7 +228,7 @@ var enabled = false;
 #### [Draw.io Integration](https://marketplace.visualstudio.com/items?itemName=hediet.vscode-drawio)
 
 - Draw.io 開発用。
-- Webブラウザ版とは差異がある。
+- Web ブラウザ版とは差異がある。
 
 #### [Log File Highlighter](https://marketplace.visualstudio.com/items?itemName=emilast.LogFileHighlighter)
 
@@ -239,7 +243,7 @@ var enabled = false;
 
 - エディター上に書いた内容をもとに HTTP リクエストを送信できるようになる。
 - cURL リクエスト、GraphQL リクエストにも対応。
-- 「Ctrl + Alt + C」で、各種言語に応じたリクエスト送信までのコードを自動生成する。
+- command + option + C（Ctrl + Alt + C）で、各種言語に応じたリクエスト送信までのコードを自動生成する。
 - テキストファイルの拡張子を .http または .rest にすると、シンタックスハイライトやコード補完のサポートが受けられる。
 - 変数を使用できる。（.http または .rest のみ）
 - サンプルファイルは[こちら](./sample/REST_Client.http)
@@ -342,14 +346,14 @@ $.get("url", data,
 
 #### [Document This](https://marketplace.visualstudio.com/items?itemName=joelday.docthis)
 
-- JavaScript 開発用。「/\*\*」を入力後 Enter、もしくは「Ctrl + Alt + D」を 2 回実行で、ドキュメンテーションコメントのひな形を生成できるようになる。
+- JavaScript 開発用。「/\*\*」を入力後 Enter、もしくは control + option + D（Ctrl + Alt + D）を 2 回実行で、ドキュメンテーションコメントのひな形を生成できるようになる。
 - ドキュメンテーションコメント自体は VSCode に最初から用意されているが、@return が生成されないなど挙動が微妙なので、無効にしている。
   （VSCode の設定「completeJSDocs」を OFF にすることで、デフォルトのドキュメンテーションコメントを無効にできる。）
 
 #### [Quokka.js](https://marketplace.visualstudio.com/items?itemName=WallabyJs.quokka-vscode)
 
 - JavaScript または TypeScript のコードをリアルタイムでコードの内容を実行、評価してくれる。
-- 「Ctrl + K」→「J」で開いたファイル内で JavaScript コードを記述する。「Ctrl + K」→「T」で TypeScript。
+- command + K → J（Ctrl + K → J）で開いたファイル内で JavaScript コードを記述する。command + K → T（Ctrl + K → T）で TypeScript。
 - ちょっとした処理を試してみたい時に最適。
 - 記述したコードのカバレッジも確認できる。
 - Pro 版の通知頻度が高く、邪魔に感じる。
