@@ -1,14 +1,14 @@
-# VSCode スニペット集
+# VSCode Snippets
 
-VSCode に最初から用意されているスニペット集です。
+This is the collection of snippets provided by VSCode.
 
 ---
 
 ### HTML
 
 ```html
-<!-- 例） -->
-<!-- ! or html:5 と入力 -->
+<!-- Sample: -->
+<!-- Type ! or html:5 -->
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -18,215 +18,215 @@ VSCode に最初から用意されているスニペット集です。
   </head>
   <body></body>
 </html>
-<!-- a と入力 -->
+<!-- Type a -->
 <a href=""></a>
-<!-- a:blank と入力 -->
+<!-- Type a:blank -->
 <a href="http://" target="_blank" rel="noopener noreferrer"></a>
-<!-- a:link と入力 -->
+<!-- Type a:link -->
 <a href="http://"></a>
-<!-- a:mail と入力 -->
+<!-- Type a:mail -->
 <a href="mailto:"></a>
-<!-- a:tel と入力 -->
+<!-- Type a:tel -->
 <a href="tel:+"></a>
 
-<!-- bq と入力 -->
+<!-- Type bq -->
 <blockquote></blockquote>
-<!-- btn と入力 -->
+<!-- Type btn -->
 <button></button>
-<!-- btn:d と入力 -->
+<!-- Type btn:d -->
 <button disabled="disabled"></button>
-<!-- btn:r と入力 -->
+<!-- Type btn:r -->
 <button type="reset"></button>
-<!-- btn:s と入力 -->
+<!-- Type btn:s -->
 <button type="submit"></button>
 
-<!-- cc:ie と入力 -->
+<!-- Type cc:ie -->
 <!--[if IE]><![endif]-->
-<!-- cc:noie と入力 -->
+<!-- Type cc:noie -->
 <!--[if !IE]><!--><!--<![endif]-->
 
-<!-- form と入力 -->
+<!-- Type form -->
 <form action=""></form>
-<!-- form:get と入力 -->
+<!-- Type form:get -->
 <form action="" method="get"></form>
-<!-- form:post と入力 -->
+<!-- Type form:post -->
 <form action="" method="post"></form>
-<!-- fst:d と入力 -->
+<!-- Type fst:d -->
 <fieldset disabled="disabled"></fieldset>
 
-<!-- html:xml と入力 -->
+<!-- Type html:xml -->
 <html xmlns="http://www.w3.org/1999/xhtml"></html>
 
-<!-- ifr と入力 -->
+<!-- Type ifr -->
 <iframe src="" frameborder="0"></iframe>
 
-<!-- img と入力 -->
+<!-- Type img -->
 <img src="" alt="">
-<!-- img:s or ri:d と入力 -->
+<!-- Type img:s or ri:d -->
 <img src="" alt="" srcset="">
-<!-- img:z or ri:v と入力 -->
+<!-- Type img:z or ri:v -->
 <img src="" alt="" sizes="" srcset="">
 
-<!-- inp と入力 -->
+<!-- Type inp -->
 <input type="text" name="" id="">
-<!-- input と入力 -->
+<!-- Type input -->
 <input type="text">
-<!-- input:b と入力 -->
+<!-- Type input:b -->
 <input type="button" value="">
-<!-- input:c と入力 -->
+<!-- Type input:c -->
 <input type="checkbox" name="" id="">
-<!-- input:color と入力 -->
+<!-- Type input:color -->
 <input type="color" name="" id="">
-<!-- input:date と入力 -->
+<!-- Type input:date -->
 <input type="date" name="" id="">
-<!-- input:datetime と入力 -->
+<!-- Type input:datetime -->
 <input type="datetime" name="" id="">
-<!-- input:datetime-local と入力 -->
+<!-- Type input:datetime-local -->
 <input type="datetime-local" name="" id="">
-<!-- input:email と入力 -->
+<!-- Type input:email -->
 <input type="email" name="" id="">
-<!-- input:f と入力 -->
+<!-- Type input:f -->
 <input type="file" name="" id="">
-<!-- input:h と入力 -->
+<!-- Type input:h -->
 <input type="hidden" name="">
-<!-- input:i と入力 -->
+<!-- Type input:i -->
 <input type="image" src="" alt="">
-<!-- input:month と入力 -->
+<!-- Type input:month -->
 <input type="month" name="" id="">
-<!-- input:number と入力 -->
+<!-- Type input:number -->
 <input type="number" name="" id="">
-<!-- input:p と入力 -->
+<!-- Type input:p -->
 <input type="password" name="" id="">
-<!-- input:r と入力 -->
+<!-- Type input:r -->
 <input type="radio" name="" id="">
-<!-- input:range と入力 -->
+<!-- Type input:range -->
 <input type="range" name="" id="">
-<!-- input:reset と入力 -->
+<!-- Type input:reset -->
 <input type="reset" value="">
-<!-- input:s と入力 -->
+<!-- Type input:s -->
 <input type="submit" value="">
-<!-- input:search と入力 -->
+<!-- Type input:search -->
 <input type="search" name="" id="">
-<!-- input:t と入力 -->
+<!-- Type input:t -->
 <input type="text" name="" id="">
-<!-- input:tel と入力 -->
+<!-- Type input:tel -->
 <input type="tel" name="" id="">
-<!-- input:time と入力 -->
+<!-- Type input:time -->
 <input type="time" name="" id="">
-<!-- input:url と入力 -->
+<!-- Type input:url -->
 <input type="url" name="" id="">
-<!-- input:week と入力 -->
+<!-- Type input:week -->
 <input type="week" name="" id="">
 
-<!-- label と入力 -->
+<!-- Type label -->
 <label for=""></label>
 
-<!-- link と入力 -->
+<!-- Type link -->
 <link rel="stylesheet" href="">
-<!-- link:css と入力 -->
+<!-- Type link:css -->
 <link rel="stylesheet" href="style.css">
-<!-- link:favicon と入力 -->
+<!-- Type link:favicon -->
 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-<!-- link:im と入力 -->
+<!-- Type link:im -->
 <link rel="import" href="component.html">
-<!-- link:mf と入力 -->
+<!-- Type link:mf -->
 <link rel="manifest" href="manifest.json">
-<!-- link:print と入力 -->
+<!-- Type link:print -->
 <link rel="stylesheet" href="print.css" media="print">
-<!-- link:rss と入力 -->
+<!-- Type link:rss -->
 <link rel="alternate" href="rss.xml" type="application/rss+xml" title="RSS">
-<!-- link:touch と入力 -->
+<!-- Type link:touch -->
 <link rel="apple-touch-icon" href="favicon.png">
 
-<!-- menu:c と入力 -->
+<!-- Type menu:c -->
 <menu type="context"></menu>
-<!-- menu:t と入力 -->
+<!-- Type menu:t -->
 <menu type="toolbar"></menu>
 
-<!-- meta:compat と入力 -->
+<!-- Type meta:compat -->
 <meta http-equiv="X-UA-Compatible" content="IE=7">
-<!-- meta:desc と入力 -->
+<!-- Type meta:desc -->
 <meta name="description" content="">
-<!-- meta:edge と入力 -->
+<!-- Type meta:edge -->
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
-<!-- meta:kw と入力 -->
+<!-- Type meta:kw -->
 <meta name="keywords" content="">
-<!-- meta:redirect と入力 -->
+<!-- Type meta:redirect -->
 <meta http-equiv="refresh" content="0; url=http://example.com">
-<!-- meta:utf と入力 -->
+<!-- Type meta:utf -->
 <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
-<!-- meta:vp と入力 -->
+<!-- Type meta:vp -->
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<!-- obj と入力 -->
+<!-- Type obj -->
 <object data="" type=""></object>
-<!-- opt と入力 -->
+<!-- Type opt -->
 <option value=""></option>
 
-<!-- param と入力 -->
+<!-- Type param -->
 <param name="" value="">
 
-<!-- ri:a と入力 -->
+<!-- Type ri:a -->
 <picture>
   <source media="(min-width: )" srcset="">
   <img src="" alt="">
 </picture>
-<!-- ri:t と入力 -->
+<!-- Type ri:t -->
 <picture>
   <source srcset="" type="image/">
   <img src="" alt="">
 </picture>
 
-<!-- script:src と入力 -->
+<!-- Type script:src -->
 <script src=""></script>
 
-<!-- select と入力 -->
+<!-- Type select -->
 <select name="" id=""></select>
-<!-- select:d と入力 -->
+<!-- Type select:d -->
 <select name="" id="" disabled="disabled"></select>
 
-<!-- src:m と入力 -->
+<!-- Type src:m -->
 <source media="(min-width: )" srcset="">
-<!-- src:mt と入力 -->
+<!-- Type src:mt -->
 <source media="(min-width: )" srcset="" type="image/">
-<!-- src:mz と入力 -->
+<!-- Type src:mz -->
 <source media="(min-width: )" srcset="" sizes="">
-<!-- src:s と入力 -->
+<!-- Type src:s -->
 <source srcset="">
-<!-- src:sc と入力 -->
+<!-- Type src:sc -->
 <source src="" type="">
-<!-- src:t と入力 -->
+<!-- Type src:t -->
 <source srcset="" type="image/">
-<!-- src:z と入力 -->
+<!-- Type src:z -->
 <source sizes="" srcset="">
-<!-- src:zt と入力 -->
+<!-- Type src:zt -->
 <source sizes="" srcset="" type="image/">
 
-<!-- tarea と入力 -->
+<!-- Type tarea -->
 <textarea name="" id="" cols="30" rows="10"></textarea>
 
-<!-- video と入力 -->
+<!-- Type video -->
 <video src=""></video>
 ```
 
 ### JavaScript
 
 ```js
-// 例）
-// e と入力
+// Sample:
+// Type e
 console.error();
 
-// foreach と入力
+// Type foreach
 array.forEach(element => {
 });
 
-// for と入力
+// Type for
 for (let index = 0; index < array.length; index++) {
   const element = array[index];
 
 }
 
-// forin と入力
+// Type forin
 for (const key in object) {
   if (object.hasOwnProperty(key)) {
     const element = object[key];
@@ -234,45 +234,45 @@ for (const key in object) {
   }
 }
 
-// forof と入力
+// Type forof
 for (const iterator of object) {
 }
 
-// function と入力
+// Type function
 function name(params) {
 }
 
-// if と入力
+// Type if
 if (condition) {
 }
 
-// ifelse と入力
+// Type ifelse
 if (condition) {
 
 } else {
 
 }
 
-// import statement と入力
+// Type import statement
 import {  } from "module";
 
-// log と入力
+// Type log
 console.log();
 
-// new と入力
+// Type new
 const name = new type(arguments);
 
-// setinterval と入力
+// Type setinterval
 setInterval(() => {
 
 }, interval);
 
-// settimeout と入力
+// Type settimeout
 setTimeout(() => {
 
 }, timeout);
 
-// switch と入力
+// Type switch
 switch (key) {
   case value:
 
@@ -282,17 +282,17 @@ switch (key) {
     break;
 }
 
-// trycatch と入力
+// Type trycatch
 try {
 
 } catch (error) {
 
 }
 
-// warn と入力
+// Type warn
 console.warn();
 
-// while と入力
+// Type while
 while (condition) {
 }
 ```

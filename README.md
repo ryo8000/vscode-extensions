@@ -1,24 +1,20 @@
-# Visual Studio Code 拡張機能
+# Visual Studio Code Extensions
 
-### [English](./README.md) | 日本語
+### English | [日本語](./README_JP.md)
 
-Visual Studio Code のおすすめの拡張機能です。
+These are the recommended extensions for Visual Studio Code.
 
-基本的には各項目内で、上から順におすすめの拡張機能を並べています。
+Within each section, the recommended extensions are listed in order from the top.
 
 ---
 
-### 基本
-
-#### [Japanese Language Pack for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=MS-CEINTL.vscode-language-pack-ja)
-
-- VSCode を日本語化します。
+### Basic
 
 #### [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
 
-- ファイルの拡張子や、ディレクトリ名に応じたアイコンを表示します。
-- どういったファイル・ディレクトリなのかが分かりやすくなります。
-- vscode-icons の方が人気ですが、こちらの方が広くカバーしています。
+- This extension displays an icon according to the file extension or directory name.
+- This makes it easier to understand what kind of files and directories they are.
+- vscode-icons is more popular, but this extension covers a wider range of topics.
 
 ![fileIcons](https://raw.githubusercontent.com/PKief/vscode-material-icon-theme/master/images/fileIcons.png)
 
@@ -28,18 +24,18 @@ Visual Studio Code のおすすめの拡張機能です。
 
 #### [GitLens — Git supercharged](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
 
-- アクティビティバーからコミットの履歴やファイルの差分などを確認できるようになります。
-- コミットメッセージが行末に表示されるようになります。
-
+- This extension allows you to see the commit history, file diffs, etc. in the activity bar.
+- This extension also allows the commit message to be showed at the end of the line.
+-
 #### [Git History](https://marketplace.visualstudio.com/items?itemName=donjayamanne.githistory)
 
-- コミットの履歴やファイルの差分などを確認できるようになります。
-- Git の log が樹形図で表示されるため把握しやすくなります。
+- This extension allows you to see the commit history, file diffs, etc.
+- The Git logs are showed as a tree diagram. This makes it easier to keep track of your logs.
 
 #### [GitHub Pull Requests](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github)
 
-- アクティビティバーから GitHub の Pull Request が確認できるようになります。
-- 変更ファイルや差分を確認することも可能です。
+- This extension allows you to check GitHub Pull Requests in the activity bar.
+- You can also check the changed files and differences.
 
 ---
 
@@ -47,278 +43,261 @@ Visual Studio Code のおすすめの拡張機能です。
 
 #### [Todo Tree](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree)
 
-- TODO や FIXME などのアノテーションコメントを検索して、アクティビティバーに表示します。
-- 見つかったアノテーションコメントは、開いているファイルの中で強調表示されます。
+- This extension your code searches for annotations like TODO and FIXME, and displays them in the activity bar.
+- Found annotations can be highlighted in the open file.
 
 #### [TODO Highlight](https://marketplace.visualstudio.com/items?itemName=wayou.vscode-todo-highlight)
 
-- TODO や FIXME などのアノテーションコメントを強調表示します。
-- Todo Tree があれば不要かもしれません。
+- Highlight TODO, FIXME and other annotations.
+- You may not need this extension if you have Todo Tree.
 
 ---
 
-### 各種サービス
+### Various services
 
 #### [Docker](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker)
 
-- アクティビティバーから Docker コンテナやイメージなどを操作できるようになります。
-- サイドバーから docker-compose ファイルを右クリックして操作することもできます。
-- Dockerfile、docker-compose の入力補完機能もあります。
+- This extension allows you to manipulate Docker containers, images, etc. in the activity bar.
+- You can also control Docker by right-clicking on the docker-compose file in the sidebar.
+- There is also a completion function for Dockerfile and docker-compose.
 
 #### [AWS Toolkit](https://marketplace.visualstudio.com/items?itemName=AmazonWebServices.aws-toolkit-vscode)
 
-- アクティビティバーから AWS 上の Lambda を呼び出しなどの操作ができるようになります。
-- AWS SAM のひな形を生成することも可能です。
+- This extension allows you to perform various operations such as calling AWS Lambda in the activity bar.
+- You can also generate a template for AWS SAM.
 
 ---
 
-### 整形・入力支援
+### Formatting and Completion
 
 #### [Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
 
-- 各種ファイルに対応したコードフォーマッターです。
-- インストールしただけでは機能しません。VSCode の設定（settings.json）を編集する必要があります。
-- 設定されたルールに基づいてコード整形しますが、構文チェックは行いません。利用する言語の構文チェックを行う拡張機能と併用することを推奨します。
+- This extension is code formatter that supports various types of files.
+- This extension does not work just by installing it; you need to edit the VSCode settings (settings.json).
+- This extension performs code formatting based on the set rules, but does not perform syntax checking. It is recommended that this extension be used in conjunction with an extension that performs syntax checking for the language you use.
 
 #### [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)
 
-- スペルミスを検出して、波線で表示します。タイプミス防止のためにもインストールすることを推奨します。
-- パネルの問題タブにも表示されます。
-- command + .（Ctrl + .）で候補の単語を表示し、対象の単語を変換することができます。
+- This extension catches spelling errors and displays them with squiggly underline. It is recommended to install it to prevent typos.
+- The detected words also appear in the problems tab of the panel.
+- This extension allows you to type command + . (Ctrl + .) to see the suggested words and convert the target word.
 
 ![example](https://raw.githubusercontent.com/streetsidesoftware/vscode-spell-checker/master/packages/client/images/example.gif)
 
 #### [Bracket Pair Colorizer 2](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer-2)
 
-- 括弧に色がつきます。ペアの括弧は同じ色になります。
-- 括弧の間にも同色の線が表示されます。
-- どの括弧がペア関係にあるのかが分かりやすくなります。
+- This extension colorizes brackets. Pairs of brackets have the same color.
+- A line of the same color as the bracket will also be showed between the brackets.
+- This extension makes it easier to see which brackets are paired with each other.
 
 ![example](https://raw.githubusercontent.com/CoenraadS/BracketPair/master/images/example.png)
 
 #### [Visual Studio IntelliCode](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode)
 
-- AI による入力補完です。予測によって選ばれた補完の候補には ★ 印が付きます。
+- This extension provides AI-powered input completion. Candidates selected by prediction are marked with ★.
 
 #### [indent-rainbow](https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow)
 
-- インデントをカラーリングしてくれます。インデントの深さによって配色が変わります。
-- インデントの深さが分かりやすくなります。
-- インデントが揃ってなかったりタブとスペースが混在していると強調表示してくれます。
+- It colors the indentations. The colors changes depending on the depth of the indentation.
+- This extension makes it easier to see how deep the indentation is.
+- If the indentation is not aligned or tabs and spaces are mixed, it highlights them.
 
 ![example](https://raw.githubusercontent.com/oderwat/vscode-indent-rainbow/master/assets/example.png)
 
-#### [EvilInspector](https://marketplace.visualstudio.com/items?itemName=saikou9901.evilinspector)
-
-- 全角スペースを強調表示します。
-- zenkaku の方が人気ですが、zenkaku と違い、常時有効化の設定をする必要がありません。
-
-#### [zenkaku](https://marketplace.visualstudio.com/items?itemName=mosapride.zenkaku)
-
-- 全角スペースを強調表示します。
-- デフォルトの設定では、VSCode を起動するたびに有効化する必要があります。設定を変更することを推奨します。
-  （.vscode/extensions/mosapride.zenkaku-◯.◯.◯/extension.js の 下記値を true に変更します。）
-
-```js
-var enabled = false;
-```
-
-![example](https://raw.githubusercontent.com/mosapride/vscode-zenkaku/images/readme01.png)
-
 #### [Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)
 
-- HTML/XML タグの名前を変更する際に、ペアになっているタグも自動的に変換します。
-- JavaScript などで変数の値として HTML/XML 形式の文字列を記述した場合にも反応します。
+- This extension automatically converts the paired tags when renaming HTML/XML tags.
+- This extension also works when HTML/XML format strings are written as variable values in JavaScript, etc.
 
 ![example](https://raw.githubusercontent.com/formulahendry/vscode-auto-rename-tag/master/images/usage.gif)
 
 #### [Highlight Matching Tag](https://marketplace.visualstudio.com/items?itemName=vincaslt.highlight-matching-tag)
 
-- HTML/XML ファイルでペアのタグを強調表示します。
-- JavaScript などで変数の値として HTML/XML 形式の文字列を記述した場合にも反応します。
-- デフォルト設定では少々見づらいので、スタイルを変更しても良いかもしれません。
+- It highlights paired tags in HTML/XML files.
+- This extension also works when HTML/XML format strings are written as variable values in JavaScript, etc.
+- That highlighting is a little hard to see with the default settings, so you may want to change the highlighting style.
 
 #### [change-case](https://marketplace.visualstudio.com/items?itemName=wmaurer.change-case)
 
-- 単語をキャメルケース、パスカルケース、スネークケースなどの記法に変換できるようになります。
+- This extension allows you to convert words into CamelCase, PascalCase, SnakeCase, and other notations.
 
 #### [Auto Close Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag)
 
-- HTML/XML ファイルで「>」を入力すると、終了タグを自動的に追加します。
-- HTML は、VSCode の設定「Auto Closing Tags」を ON にすることで、自動で終了タグを追加するよう設定できます。その場合この拡張機能は不要です。
+- If you type ">" in an HTML/XML file, it will automatically add the closing tag.
+- HTML can be configured to add closing tags automatically by turning on "Auto Closing Tags" in the VSCode setting. In that case, this extension is not necessary.
 
 #### [Trailing Spaces](https://marketplace.visualstudio.com/items?itemName=shardulm94.trailing-spaces)
 
-- 行末のスペースを強調表示します。
-- VSCode の設定「trimTrailingWhitespace」を ON にすることで、保存時に自動で削除するよう設定できます。その場合この拡張機能は不要です。
+- It highlights spaces at the end of lines.
+- By turning on "trimTrailingWhitespace" in the VSCode settings, you can set it to automatically remove it when saving. In that case, this extension is not necessary.
 
 ![example](https://shardulm94.gallerycdn.vsassets.io/extensions/shardulm94/trailing-spaces/0.3.1/1554790489790/Microsoft.VisualStudio.Services.Icons.Default)
 
 ---
 
-### リモート
+### Remote
 
 #### [Live Share](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare)
 
-- 複数人とリアルタイムで共同編集およびデバッグができるようになります（Microsoft アカウントか GitHub アカウントが必要です）。
-- テキストチャットとボイスチャットも可能です（別途 Live Share 〇〇 と名のついた拡張機能のインストールが必要です）。
-- ペアプログラミングが容易できるようになります。
-- ホスト側マシンの環境にゲストがアクセスするかたちになるので、ゲスト側で環境構築が不要です。
+- This extension enables real-time collaborative editing and debugging with multiple people (Microsoft or GitHub account required).
+- You can also text chat and voice chat (You need to install the extension named "Live Share XXX" separately).
+- It makes pair programming easier.
+- Since the guest accesses the environment of the host machine, there is no need to build the environment on the guest side.
 
 ---
 
-### 各種ファイル
+### Various Files
 
 #### [Rainbow CSV](https://marketplace.visualstudio.com/items?itemName=mechatroner.rainbow-csv)
 
-- CSV/TSV 開発用。列ごとに色分けして表示します。
-- カーソルを乗せると列数とヘッダをツールチップで表示します。
-- ステータスバーの「Align」をクリックすると、カラム幅を調整して縦の開始位置を揃えます。
-- ステータスバーの「Query」をクリックすると、テーブル形式で表示します。SQLを使うようにデータを抽出することもできます。
+- For CSV / TSV development. It shows each column in a different color.
+- Tooltip for number of columns and header when hovering the cursor over them.
+- Click "Align" in the status bar to adjust the column width and align the vertical start position.
+- Click "Query" in the status bar to view the data in table format. You can also extract data as if you use SQL.
 
 #### [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)
 
-- Markdown を記述する際に便利なショートカットキーが使えるようになります。
-- 例）Ctrl + B で**太字**。Alt + S で~~取り消し線~~。
+- This extension allows you to use useful shortcut keys when writing Markdown.
+- Sample: Ctrl + B for **bold**。Alt + S for ~~strikethrough~~。
 
 #### [Markdown Preview Enhanced](https://marketplace.visualstudio.com/items?itemName=shd101wyy.markdown-preview-enhanced)
 
-- Markdown のプレビューを表示しながら編集できるようになります。
-- Markdown All in One でもプレビューは表示できますが、レイアウトが異なるので好みに応じてこちらを利用しても良いかもしれません。
+- This extension allows you to edit Markdown while viewing a preview of it.
+- You can also view the preview in Markdown All in One, but the layout is different, so you may want to use this one if you prefer.
 
 #### [XML Tools](https://marketplace.visualstudio.com/items?itemName=DotJoshJohnson.xml)
 
-- XML 開発用。
+- For XML development.
 
 #### [XML to JSON](https://marketplace.visualstudio.com/items?itemName=buianhthang.xml2json)
 
-- XML を JSON に変換できるようになります。
+- This extension allows you to convert XML to JSON.
 
 #### [Json Editor](https://marketplace.visualstudio.com/items?itemName=nickdemayo.vscode-json-editor)
 
-- JSON をツリー形式で表示できるようになります。
+- This extension allows you to shows JSON in a tree format.
 
 #### [Paste JSON as Code](https://marketplace.visualstudio.com/items?itemName=quicktype.quicktype)
 
-- JSON から Java や TypeScript などのクラスや関数を生成できるようになります。
+- This extension allows you to generate classes and functions for Java, TypeScript, etc. from JSON.
 
 ![example](https://raw.githubusercontent.com/quicktype/quicktype-vscode/master/media/demo-interactive.gif)
 
 #### [SQL Formatter](https://marketplace.visualstudio.com/items?itemName=adpyke.vscode-sql-formatter)
 
-- .sql ファイル開発用。
-- for update を認識できないなど、あまり挙動が良くありません。
+- For .sql file development.
+- It does not behave well, for example, it does not recognize "for update".
 
 #### [DotENV](https://marketplace.visualstudio.com/items?itemName=mikestead.dotenv)
 
-- .env ファイル開発用。
+- For .env file development.
 
 #### [systemd-unit-file](https://marketplace.visualstudio.com/items?itemName=coolbear.systemd-unit-file)
 
-- ユニットファイル開発用。
+- For unit file development.
 
 #### [PlantUML](https://marketplace.visualstudio.com/items?itemName=jebbs.plantuml)
 
-- PlantUML 開発用。プレビューを表示しながら編集できるようになります。
-- Java の実行環境が必要です。
+- For PlantUML development. This extension allows you to edit while viewing a preview.
+- It requires a java runtime environment.
 
 #### [Graphviz (dot) language support for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=Stephanvs.dot)
 
-- PlantUML で ER 図などの開発用。
-- Java の実行環境が必要です。
+- For developing ER diagrams in PlantUML.
+- It requires a java runtime environment.
 
 #### [Draw.io Integration](https://marketplace.visualstudio.com/items?itemName=hediet.vscode-drawio)
 
-- Draw.io 開発用。
-- Web ブラウザ版とは差異があります。
+- For Draw.io development.
+- There are some differences from the web browser version.
 
 #### [Log File Highlighter](https://marketplace.visualstudio.com/items?itemName=emilast.LogFileHighlighter)
 
-- .log ファイルにカラーハイライトを追加します。
-- デフォルトの動作で十分であればこの拡張機能は不要です。
+- This extension adds color highlighting to log files.
+- If the default behavior is sufficient, this extension is not necessary.
 
 ---
 
-### フロントエンド全般
+### Front End
 
 #### [REST Client](https://marketplace.visualstudio.com/items?itemName=humao.rest-client)
 
-- エディター上に書いた内容をもとに HTTP リクエストを送信できるようになります。
-- cURL リクエスト、GraphQL リクエストにも対応しています。
-- command + option + C（Ctrl + Alt + C）で、各種言語に応じたリクエスト送信までのコードを自動生成します。
-- テキストファイルの拡張子を .http または .rest にすると、シンタックスハイライトやコード補完のサポートが受けられます。
-- ファイル内で変数を使用できます（.http または .rest の場合のみ）。
-- サンプルファイルは[こちら](./sample/REST_Client.http)
+- This extension allows you to send HTTP requests based on what you write in the editor.
+- It also supports cURL requests and GraphQL requests.
+- This extension automatically generates the code to send a request according to various languages by typing command + option + C (Ctrl + Alt + C).
+- Syntax highlighting and code completion support is available by setting the text file extension to .http or .rest.
+- You can use variables in the file. (only if it is .http or .rest)
+- The sample file is [here](. /sample/REST_Client.http).
 
 #### [Color Highlight](https://marketplace.visualstudio.com/items?itemName=naumovs.color-highlight)
 
-- CSS のカラーコードにカーソルを乗せると、ピッカーが表示されます。
-- ピッカーから色を変更することも可能です。
+- If you hover over the CSS color code, it shows you the picker.
+- You can also change the color with the picker.
 
 #### [open in browser](https://marketplace.visualstudio.com/items?itemName=techer.open-in-browser)
 
-- HTML ファイルをブラウザで開くことが可能になります。その場で素早く確認したい場合などに良いでしょう。
-- もちろん .vue ファイルなどのコンパイルが必要なファイルは開けません。
+- This extension allows you to open HTML files in your browser. This is good if you want to check it quickly on the spot.
+- Files that need to be compiled, such as .vue files, cannot be opened.
 
 #### [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
 
-- ステータスバーの「Go live」をクリックすると、ローカルサーバを起動できるようになります。
-- http://127.0.0.1:5500 で起動します。
-- Docker でサーバを起動させて HTML などを確認する場合には使う機会が少ないでしょう。
+- This extension allows you to start a local server by clicking "Go live" in the status bar.
+- Start it at http://127.0.0.1:5500 .
+- You will not use it if you start a local server using Docker and check HTML, etc.
 
 #### [HTML Snippets](https://marketplace.visualstudio.com/items?itemName=abusaidm.html-snippets)
 
-- HTML 用スニペット集です。
-- VSCode に最初から用意されているのでインストール不要です。
-- このスニペットに関する詳細は[こちら](./doc/VSCode_snippets.md)。
+- HTML Snippet Pack.
+- This is provided in VSCode, so you do not need to install it.
+- For more information on snippets, see [here](./doc/VSCode_snippets.md).
 
-### JavaScript 系
+### JavaScript
 
 #### [JavaScript Snippet Pack](https://marketplace.visualstudio.com/items?itemName=akamud.vscode-javascript-snippet-pack)
 
-- JavaScript 用スニペット集です。ES6 構文以降のものが含まれていません。
-- なお、VSCode に最初から用意されているスニペットに関する詳細は[こちら](./doc/VSCode_snippets.md)。
+- JavaScript Snippet Pack. This does not contain snippets for JavaScript in ES6 syntax or later.
+- For more information about the snippets provided in VSCode, see [here](./doc/VSCode_snippets.md).
 
 ```js
-// 例）
-// ae と入力
+// Sample:
+// Type ae
 document.addEventListener('load', function (e) {
   // body
 });
-// pr と入力
+// Type pr
 object.prototype.method = function(arguments) {
   // body
 }
-// gi と入力
+// Type gi
 document.getElementById('id');
-// jp と入力
+// Type jp
 JSON.parse(obj);
-// us と入力
+// Type us
 'use strict';
 ```
 
 #### [JavaScript (ES6) code snippets](https://marketplace.visualstudio.com/items?itemName=xabikos.JavaScriptSnippets)
 
-- JavaScript 用スニペット集。ES6 構文のものが含まれています。
+- JavaScript Snippet Pack. This contains snippets for JavaScript in ES6 syntax.
 
 ```js
-// 例）
-// imp と入力
+// Sample:
+// Type imp
 import moduleName from 'module';
-// req と入力
+// Type req
 const packageName = require('packageName');
-// ecl と入力
+// Type ecl
 export default class className {
 };
-// nfn と入力
+// Type nfn
 const name = (params) => {
 }
-// dob と入力
+// Type dob
 const {propertyName} = objectToDestruct;
-// prom と入力
+// Type prom
 return new Promise((resolve, reject) => {
 });
-// thenc と入力
+// Type thenc
 .then((result) => {
 
 }).catch((err) => {
@@ -328,16 +307,16 @@ return new Promise((resolve, reject) => {
 
 #### [jQuery Code Snippets](https://marketplace.visualstudio.com/items?itemName=donjayamanne.jquerysnippets)
 
-- jQuery 用スニペット集。
+- jQuery Snippet Pack.
 
 ```js
-// 例）
-// jqClick と入力
+// Sample:
+// Type jqClick
 $(selector).click(function (e) {
   e.preventDefault();
 
 });
-// jqGet と入力
+// Type jqGet
 $.get("url", data,
   function (data, textStatus, jqXHR) {
 
@@ -348,62 +327,62 @@ $.get("url", data,
 
 #### [Document This](https://marketplace.visualstudio.com/items?itemName=joelday.docthis)
 
-- JavaScript 開発用。「/\*\*」を入力後 Enter、もしくは control + option + D（Ctrl + Alt + D）を 2 回実行することで、ドキュメンテーションコメントのひな形を生成できるようになります。
-- ドキュメンテーションコメント自体は VSCode に最初から用意されていますが、@return が生成されないなど挙動が良くないので、無効にしてこの拡張機能を利用することを推奨します。（VSCode の設定「completeJSDocs」を OFF にすることで、デフォルトのドキュメンテーションコメントを無効にできます。）
+- For JavaScript development. This extension allows you to generate a documentation comment template by typing /\*\* and then Enter, or control + option + D (Ctrl + Alt + D) twice.
+- Documentation comments are also provided in VSCode from the beginning, but it does not behave well, for example, @return is not generated, so it is recommended to disable it and use this extension. (The default documentation comments can be disabled by turning off the VSCode setting "completeJSDocs".)
 
 #### [Quokka.js](https://marketplace.visualstudio.com/items?itemName=WallabyJs.quokka-vscode)
 
-- JavaScript または TypeScript のコードをリアルタイムでコードの内容を実行、評価します。
-- command + K → J（Ctrl + K → J）で開いたファイル内に、 JavaScript のコードを記述します。command + K → T（Ctrl + K → T）で TypeScript です。
-- ちょっとした処理を試してみたい場合に適しています。
-- 記述したコードのカバレッジも確認できます。
-- 通知頻度が高いのが欠点です。
+- This extension executes and evaluates JavaScript or TypeScript code in real time.
+- You will need to write the JavaScript code in the file opened by typing command + K → J (Ctrl + K → J). If command + K → J (Ctrl + K → J), then TypeScript code.
+- This is good if you want to try out a small piece of code to see how it works.
+- You can also check the coverage of the code you have written.
+- The disadvantage is the high frequency of notifications.
 
 #### [Vetur](https://marketplace.visualstudio.com/items?itemName=octref.vetur)
 
-- Vue.js 開発用。
+- For Vue.js development.
 
 #### [npm](https://marketplace.visualstudio.com/items?itemName=eg2.vscode-npm-script)
 
-- package.json で定義された npm スクリプトを実行できるようになります。
-- モジュールがインストール済みか確認することも可能です。
-- yarn 版もあります。
+- This extension allows you to run npm scripts defined in package.json.
+- You can also check if a module is already installed.
+- There is also a yarn version of this.
 
 #### [Import Cost](https://marketplace.visualstudio.com/items?itemName=wix.vscode-import-cost)
 
-- JavaScript や TypeScript で import したファイル容量を表示します。
+- It shows the size of the imported file in JavaScript or TypeScript.
 
-### Perl 系
+### Perl
 
 #### [Perl](https://marketplace.visualstudio.com/items?itemName=henriiik.vscode-perl)
 
-- Perl 開発用。
+- For Perl development.
 
-### Python 系
+### Python
 
 #### [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
 
-- Python 開発用。
-- 用意されているスニペット集は[こちら](./doc/Python_snippets.md)
+- For Python development.
+- For more information about the snippets provided, see [here](./doc/Python_snippets.md).
 
 #### [Python Docstring Generator（旧：autoDocstring）](https://marketplace.visualstudio.com/items?itemName=njpwerner.autodocstring)
 
-- Python 開発用。「"」を 3 回入力後 Enter で、ドキュメンテーションコメントのひな形を生成できるようになります。
-- Google スタイルや numpy スタイルに変更することも可能です。
+- For Python development. This extension allows you to generate a documentation comment template by typing " three times and then Enter.
+- You can also change the documentation comments to Google style or numpy style.
 
 #### [Python Extended](https://marketplace.visualstudio.com/items?itemName=tushortz.python-extended-snippets)
 
-- Python 開発用。入力候補をより多く表示します。
-- python snippets もインストールしていると、入力候補が大量に出てきます。
+- For Python development. It shows you more input suggestions.
+- If you also install python snippets, you will get a large number of input suggestions.
 
 #### [python snippets](https://marketplace.visualstudio.com/items?itemName=frhtylcn.pythonsnippets)
 
-- Python 用スニペット集。
-- 普通のスニペット集というより、使用例を表示する機能と考えた方が良いでしょう。
+- Python Snippet Pack.
+- However, it is better to think of it as the extension that displays usage examples rather than a regular snippet.
 
 ```py
 # 例）
-# built_in.type=> と入力
+# Type built_in.type=>
 a = ('apple', 'banana', 'cherry')
 b = 'Hello World'
 c = 33
@@ -411,16 +390,16 @@ x = type(a)
 y = type(b)
 z = type(c)
 
-# for=> と入力
+# Type for=>
 fruits = ['apple', 'banana', 'cherry']
 for x in fruits:
   print(x)
 
-# list.comp=>_5 と入力
+# Type list.comp=>_5
 x = [double(x) for x in range(10) if x%2==0]
 print(x)
 
-# class=>with_attribute_1 と入力
+# Type class=>with_attribute_1
 class Parrot:
 
 # class attribute
@@ -443,20 +422,20 @@ print('{} is {} years old'.format( blu.name, blu.age))
 print('{} is {} years old'.format( woo.name, woo.age))
 ```
 
-### Ruby 系
+### Ruby
 
 #### [Ruby](https://marketplace.visualstudio.com/items?itemName=rebornix.Ruby)
 
-- Ruby 開発用。
+- For Ruby development.
 
 #### [erb](https://marketplace.visualstudio.com/items?itemName=CraigMaslowski.erb)
 
-- Ruby の.erb ファイル開発用。
+- For developing .erb files in Ruby.
 
-### その他
+### Other
 
 #### [Regex Previewer](https://marketplace.visualstudio.com/items?itemName=chrmarti.regex)
 
-- 正規表現の動作確認を手軽に行えるようになります。
+- This extension allows you to easily check the behavior of regular expressions
 
 ![example](https://raw.githubusercontent.com/chrmarti/vscode-regex/master/images/in_action.gif)

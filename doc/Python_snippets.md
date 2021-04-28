@@ -1,123 +1,123 @@
-# Python スニペット集
+# Python Snippets
 
-Python 系の拡張機能に用意されているスニペット集です。
+This is the collection of snippets provided by Python extensions.
 
 ---
 
 #### [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
 
-- Python 用スニペット。
+- Snippets for Python
 
 ```py
-# 例）
-# async/def と入力
+# Sample:
+# Type async/def
 async def funcname(parameter_list):
     pass
 
-# async/for と入力
+# Type async/for
 async for target in iter:
     block
 
-# async/for/else と入力
+# Type async/for/else
 async for target in iter:
     block
 else:
     block
 
-# async/with と入力
+# Type async/with
 async with expr as var:
     block
 
-# class と入力
+# Type class
 class classname(object):
     pass
 
-# def と入力
+# Type def
 def funcname(parameter_list):
     pass
 
-# def(abstract class method) と入力
+# Type def(abstract class method)
 def funcname(self, parameter_list):
     raise NotImplementedError
 
-# def(class method) と入力
+# Type def(class method)
 def funcname(self, parameter_list):
     pass
 
-# def(static class method) と入力
+# Type def(static class method)
 @staticmethod
 def funcname(parameter_list):
     pass
 
-# elif と入力
+# Type elif
 elif expression:
     pass
 
-# else と入力
+# Type else
 else:
     pass
 
-# for と入力
+# Type for
 for target_list in expression_list:
     pass
 
-# for/else と入力
+# Type for/else
 for target_list in expression_list:
     pass
 else:
     pass
 
-# if と入力
+# Type if
 if expression:
     pass
 
-# if/else と入力
+# Type if/else
 if condition:
     pass
 else:
     pass
 
-# ipdb と入力
+# Type ipdb
 import ipdb; ipdb.set_trace()
 
-# lambda と入力
+# Type lambda
 lambda parameter_list: expression
 
-# __name__ と入力
+# Type __name__
 if __name__ == "__main__":
     pass
 
-# pdb と入力
+# Type pdb
 import pdb; pdb.set_trace()
 
-# pudb と入力
+# Type pudb
 import pudb; pudb.set_trace()
 
-# try/except と入力
+# Type try/except
 try:
     pass
 except expression as identifier:
     pass
 
-# try/except/else と入力
-try:
-    pass
-except expression as identifier:
-    pass
-else:
-    pass
-
-# try/except/else/finally と入力
+# Type try/except/else
 try:
     pass
 except expression as identifier:
     pass
 else:
     pass
+
+# Type try/except/else/finally
+try:
+    pass
+except expression as identifier:
+    pass
+else:
+    pass
 finally:
     pass
 
-# try/except/finally と入力
+# Type try/except/finally
 try:
     pass
 except expression as identifier:
@@ -125,23 +125,23 @@ except expression as identifier:
 finally:
     pass
 
-# try/finally と入力
+# Type try/finally
 try:
     pass
 finally:
     pass
 
-# while と入力
+# Type while
 while expression:
     pass
 
-# while/else と入力
+# Type while/else
 while expression:
     pass
 else:
     pass
 
-# with と入力
+# Type with
 with expression as target:
     pass
 ```
