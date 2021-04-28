@@ -365,7 +365,7 @@ $.get("url", data,
 - For Python development.
 - For more information about the snippets provided, see [here](./doc/Python_snippets.md).
 
-#### [Python Docstring Generator（旧：autoDocstring）](https://marketplace.visualstudio.com/items?itemName=njpwerner.autodocstring)
+#### [Python Docstring Generator（autoDocstring）](https://marketplace.visualstudio.com/items?itemName=njpwerner.autodocstring)
 
 - For Python development. This extension allows you to generate a documentation comment template by typing " three times and then Enter.
 - You can also change the documentation comments to Google style or numpy style.
