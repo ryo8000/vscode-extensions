@@ -1,8 +1,10 @@
 # Visual Studio Code 拡張機能
 
-使ってみた Visual Studio Code の拡張機能です。
+### [English](./README.md) | 日本語
 
-基本的には各項目内で、上から順に良かった機能を並べています。
+Visual Studio Code のおすすめの拡張機能です。
+
+基本的には各項目内で、上から順におすすめの拡張機能を並べています。
 
 ---
 
@@ -10,13 +12,13 @@
 
 #### [Japanese Language Pack for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=MS-CEINTL.vscode-language-pack-ja)
 
-- VSCode を日本語化。
+- VSCode を日本語化します。
 
 #### [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
 
-- ファイルの拡張子や、ディレクトリ名に応じたアイコンを表示してくれる。
-- 一見してどういったファイル・ディレクトリなのかが分かりやすくなる。
-- vscode-icons の方が人気だが個人的にはこちらの方が好み。
+- ファイルの拡張子や、ディレクトリ名に応じたアイコンを表示します。
+- どういったファイル・ディレクトリなのかが分かりやすくなります。
+- vscode-icons の方が人気ですが、こちらの方が広くカバーしています。
 
 ![fileIcons](https://raw.githubusercontent.com/PKief/vscode-material-icon-theme/master/images/fileIcons.png)
 
@@ -26,18 +28,18 @@
 
 #### [GitLens — Git supercharged](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
 
-- アクティビティバーからコミットの履歴やファイルの差分などを確認できるようになる。
-- コミット時のコメントが、行末に表示されるようになる。
+- アクティビティバーからコミットの履歴やファイルの差分などを確認できるようになります。
+- コミットメッセージが行末に表示されるようになります。
 
 #### [Git History](https://marketplace.visualstudio.com/items?itemName=donjayamanne.githistory)
 
-- コミットの履歴やファイルの差分などを確認できるようになる。
-- Git log が樹形図で表示されるため見やすい。
+- コミットの履歴やファイルの差分などを確認できるようになります。
+- Git の log が樹形図で表示されるため把握しやすくなります。
 
 #### [GitHub Pull Requests](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github)
 
-- アクティビティバーから GitHub 上の Pull Request が確認できるようになる。
-- 変更ファイルや差分も確認することも可能。
+- アクティビティバーから GitHub の Pull Request が確認できるようになります。
+- 変更ファイルや差分を確認することも可能です。
 
 ---
 
@@ -45,13 +47,13 @@
 
 #### [Todo Tree](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree)
 
-- TODO や FIXME などのアノテーションコメントを検索し、アクティビティバーに表示してくれる。
-- Todo+ も人気だが個人的にはこちらの方が好み。
+- TODO や FIXME などのアノテーションコメントを検索して、アクティビティバーに表示します。
+- 見つかったアノテーションコメントは、開いているファイルの中で強調表示されます。
 
 #### [TODO Highlight](https://marketplace.visualstudio.com/items?itemName=wayou.vscode-todo-highlight)
 
-- TODO や FIXME などのアノテーションコメントを強調表示してくれる。
-- Todo Tree があれば不要かもしれない。
+- TODO や FIXME などのアノテーションコメントを強調表示します。
+- Todo Tree があれば不要かもしれません。
 
 ---
 
@@ -59,14 +61,14 @@
 
 #### [Docker](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker)
 
-- アクティビティバーから Docker コンテナやイメージの操作などが行えるようになる。
-- サイドバーから docker-compose ファイルを右クリックして操作もできる。
-- Dockerfile、docker-compose の入力補完機能もある。
+- アクティビティバーから Docker コンテナやイメージなどを操作できるようになります。
+- サイドバーから docker-compose ファイルを右クリックして操作することもできます。
+- Dockerfile、docker-compose の入力補完機能もあります。
 
 #### [AWS Toolkit](https://marketplace.visualstudio.com/items?itemName=AmazonWebServices.aws-toolkit-vscode)
 
-- アクティビティバーから AWS 上の Lambda を呼び出しなどが行えるようになる。
-- AWS SAM のひな形を生成することも可能。
+- アクティビティバーから AWS 上の Lambda を呼び出しなどの操作ができるようになります。
+- AWS SAM のひな形を生成することも可能です。
 
 ---
 
@@ -74,48 +76,48 @@
 
 #### [Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
 
-- 各種ファイルに対応したコードフォーマッター。
-- インストールしただけでは機能しない。VSCode の設定（settings.json）を編集する必要がある。
-- 設定されたルールに基づいて整形するのみであり、構文チェックは行わない。利用する言語の構文チェックを行う拡張機能と併用することを推奨。
+- 各種ファイルに対応したコードフォーマッターです。
+- インストールしただけでは機能しません。VSCode の設定（settings.json）を編集する必要があります。
+- 設定されたルールに基づいてコード整形しますが、構文チェックは行いません。利用する言語の構文チェックを行う拡張機能と併用することを推奨します。
 
 #### [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)
 
-- スペルミスを検出して、波線で表示してくれる。タイプミス防止のためにも入れておくことを推奨。
-- パネルの問題タブにも表示される。
-- command + .（Ctrl + .）で候補の単語を表示し、対象の単語を変換することができる。
+- スペルミスを検出して、波線で表示します。タイプミス防止のためにもインストールすることを推奨します。
+- パネルの問題タブにも表示されます。
+- command + .（Ctrl + .）で候補の単語を表示し、対象の単語を変換することができます。
 
 ![example](https://raw.githubusercontent.com/streetsidesoftware/vscode-spell-checker/master/packages/client/images/example.gif)
 
 #### [Bracket Pair Colorizer 2](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer-2)
 
-- 括弧に色がつくようになる。ペアの括弧は同じ色になる。
-- 括弧の間にも同色の線が表示される。
-- どの括弧がペア関係にあるのかが分かりやすくなる。
+- 括弧に色がつきます。ペアの括弧は同じ色になります。
+- 括弧の間にも同色の線が表示されます。
+- どの括弧がペア関係にあるのかが分かりやすくなります。
 
 ![example](https://raw.githubusercontent.com/CoenraadS/BracketPair/master/images/example.png)
 
 #### [Visual Studio IntelliCode](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode)
 
-- AI による入力補完。予測によって選ばれた補完の候補には ★ 印が付く。
+- AI による入力補完です。予測によって選ばれた補完の候補には ★ 印が付きます。
 
 #### [indent-rainbow](https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow)
 
-- インデントをカラーリングしてくれる。インデントの深さによって配色が変わる。
-- インデントの深さが分かりやすくなる。
-- インデントが揃ってなかったりタブとスペースが混在していると強調表示してくれる。
+- インデントをカラーリングしてくれます。インデントの深さによって配色が変わります。
+- インデントの深さが分かりやすくなります。
+- インデントが揃ってなかったりタブとスペースが混在していると強調表示してくれます。
 
 ![example](https://raw.githubusercontent.com/oderwat/vscode-indent-rainbow/master/assets/example.png)
 
 #### [EvilInspector](https://marketplace.visualstudio.com/items?itemName=saikou9901.evilinspector)
 
-- 全角スペースを強調表示してくれる。
-- zenkaku の方が人気だが、zenkaku と違い、常時有効化の設定をする必要がない。
+- 全角スペースを強調表示します。
+- zenkaku の方が人気ですが、zenkaku と違い、常時有効化の設定をする必要がありません。
 
 #### [zenkaku](https://marketplace.visualstudio.com/items?itemName=mosapride.zenkaku)
 
-- 全角スペースを強調表示してくれる。
-- デフォルトの設定では、VSCode を起動するたびに有効化する必要があるので、設定の変更を推奨。
-  （.vscode/extensions/mosapride.zenkaku-◯.◯.◯/extension.js の 下記値を true に変更する。）
+- 全角スペースを強調表示します。
+- デフォルトの設定では、VSCode を起動するたびに有効化する必要があります。設定を変更することを推奨します。
+  （.vscode/extensions/mosapride.zenkaku-◯.◯.◯/extension.js の 下記値を true に変更します。）
 
 ```js
 var enabled = false;
@@ -125,30 +127,30 @@ var enabled = false;
 
 #### [Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)
 
-- HTML/XML タグの名前を変更する際に、ペアになっているタグも自動的に変換してくれる。
-- JavaScript などで変数の値として HTML/XML 形式の文字列を記述した場合にも反応する。
+- HTML/XML タグの名前を変更する際に、ペアになっているタグも自動的に変換します。
+- JavaScript などで変数の値として HTML/XML 形式の文字列を記述した場合にも反応します。
 
 ![example](https://raw.githubusercontent.com/formulahendry/vscode-auto-rename-tag/master/images/usage.gif)
 
 #### [Highlight Matching Tag](https://marketplace.visualstudio.com/items?itemName=vincaslt.highlight-matching-tag)
 
-- HTML/XML ファイルでペアのタグをハイライトしてくれる。
-- JavaScript などで変数の値として HTML/XML 形式の文字列を記述した場合にも反応する。
-- デフォルト設定では少々見づらいので、スタイルを変更しても良いかもしれない。
+- HTML/XML ファイルでペアのタグを強調表示します。
+- JavaScript などで変数の値として HTML/XML 形式の文字列を記述した場合にも反応します。
+- デフォルト設定では少々見づらいので、スタイルを変更しても良いかもしれません。
 
 #### [change-case](https://marketplace.visualstudio.com/items?itemName=wmaurer.change-case)
 
-- 単語をキャメルケース、パスカルケース、スネークケースなどの記法に変換できるようになる。
+- 単語をキャメルケース、パスカルケース、スネークケースなどの記法に変換できるようになります。
 
 #### [Auto Close Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag)
 
-- HTML/XML ファイルで「>」を入力すると、終了タグを自動的に追加してくれる。
-- HTML は、VSCode の設定「Auto Closing Tags」を ON にすることで、自動で終了タグを追加するよう設定できる。その場合この拡張機能は不要。
+- HTML/XML ファイルで「>」を入力すると、終了タグを自動的に追加します。
+- HTML は、VSCode の設定「Auto Closing Tags」を ON にすることで、自動で終了タグを追加するよう設定できます。その場合この拡張機能は不要です。
 
 #### [Trailing Spaces](https://marketplace.visualstudio.com/items?itemName=shardulm94.trailing-spaces)
 
-- 行末のスペースを強調表示してくれる。
-- VSCode の設定「trimTrailingWhitespace」を ON にすることで、保存時に自動で削除するよう設定できる。その場合この拡張機能は不要。
+- 行末のスペースを強調表示します。
+- VSCode の設定「trimTrailingWhitespace」を ON にすることで、保存時に自動で削除するよう設定できます。その場合この拡張機能は不要です。
 
 ![example](https://shardulm94.gallerycdn.vsassets.io/extensions/shardulm94/trailing-spaces/0.3.1/1554790489790/Microsoft.VisualStudio.Services.Icons.Default)
 
@@ -158,10 +160,10 @@ var enabled = false;
 
 #### [Live Share](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare)
 
-- 複数人とリアルタイムで共同編集およびデバッグができるようになる。（Microsoft アカウントか GitHub アカウントが必要）
-- テキストチャットとボイスチャットも可能。（別途、Live Share 〇〇 と名のついた拡張機能のインストールが必要）
-- ペアプログラミングが容易できるようになる。
-- ホスト側マシンの環境にゲストがアクセスするかたちになるので、ゲスト側で環境構築が不要になる。
+- 複数人とリアルタイムで共同編集およびデバッグができるようになります（Microsoft アカウントか GitHub アカウントが必要です）。
+- テキストチャットとボイスチャットも可能です（別途 Live Share 〇〇 と名のついた拡張機能のインストールが必要です）。
+- ペアプログラミングが容易できるようになります。
+- ホスト側マシンの環境にゲストがアクセスするかたちになるので、ゲスト側で環境構築が不要です。
 
 ---
 
@@ -169,20 +171,20 @@ var enabled = false;
 
 #### [Rainbow CSV](https://marketplace.visualstudio.com/items?itemName=mechatroner.rainbow-csv)
 
-- CSV/TSV 開発用。列ごとに色分けして表示してくれる。
-- カーソルを乗せると列数とヘッダをツールチップで表示。
-- ステータスバーの「Align」をクリックすると、カラム幅を調整して縦の開始位置を揃える。
-- ステータスバーの「Query」をクリックすると、テーブル形式で表示。SQL っぽくデータを抽出することもできる。
+- CSV/TSV 開発用。列ごとに色分けして表示します。
+- カーソルを乗せると列数とヘッダをツールチップで表示します。
+- ステータスバーの「Align」をクリックすると、カラム幅を調整して縦の開始位置を揃えます。
+- ステータスバーの「Query」をクリックすると、テーブル形式で表示します。SQLを使うようにデータを抽出することもできます。
 
 #### [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)
 
-- Markdown を記述する際に便利なショートカットキーが使えるようになる。
+- Markdown を記述する際に便利なショートカットキーが使えるようになります。
 - 例）Ctrl + B で**太字**。Alt + S で~~取り消し線~~。
 
 #### [Markdown Preview Enhanced](https://marketplace.visualstudio.com/items?itemName=shd101wyy.markdown-preview-enhanced)
 
-- Markdown のプレビューを表示しながら編集できるようになる。
-- エディター内上部のプレビュー表示アイコンからでも、Markdown All in One でもプレビューは表示できるが個人的にはこちらの方が好み。
+- Markdown のプレビューを表示しながら編集できるようになります。
+- Markdown All in One でもプレビューは表示できますが、レイアウトが異なるので好みに応じてこちらを利用しても良いかもしれません。
 
 #### [XML Tools](https://marketplace.visualstudio.com/items?itemName=DotJoshJohnson.xml)
 
@@ -190,22 +192,22 @@ var enabled = false;
 
 #### [XML to JSON](https://marketplace.visualstudio.com/items?itemName=buianhthang.xml2json)
 
-- XML を JSON に変換できるようになる。
+- XML を JSON に変換できるようになります。
 
 #### [Json Editor](https://marketplace.visualstudio.com/items?itemName=nickdemayo.vscode-json-editor)
 
-- JSON をツリー形式で表示できるようになる。
+- JSON をツリー形式で表示できるようになります。
 
 #### [Paste JSON as Code](https://marketplace.visualstudio.com/items?itemName=quicktype.quicktype)
 
-- JSON から Java や TypeScript などのクラスや関数を生成できるようになる。
+- JSON から Java や TypeScript などのクラスや関数を生成できるようになります。
 
 ![example](https://raw.githubusercontent.com/quicktype/quicktype-vscode/master/media/demo-interactive.gif)
 
 #### [SQL Formatter](https://marketplace.visualstudio.com/items?itemName=adpyke.vscode-sql-formatter)
 
 - .sql ファイル開発用。
-- for update を認識できなかったり、少し微妙。
+- for update を認識できないなど、あまり挙動が良くありません。
 
 #### [DotENV](https://marketplace.visualstudio.com/items?itemName=mikestead.dotenv)
 
@@ -217,23 +219,23 @@ var enabled = false;
 
 #### [PlantUML](https://marketplace.visualstudio.com/items?itemName=jebbs.plantuml)
 
-- PlantUML 開発用。プレビューを表示しながら編集できるようになる。
-- Java の実行環境が必要。
+- PlantUML 開発用。プレビューを表示しながら編集できるようになります。
+- Java の実行環境が必要です。
 
 #### [Graphviz (dot) language support for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=Stephanvs.dot)
 
 - PlantUML で ER 図などの開発用。
-- Java の実行環境が必要。
+- Java の実行環境が必要です。
 
 #### [Draw.io Integration](https://marketplace.visualstudio.com/items?itemName=hediet.vscode-drawio)
 
 - Draw.io 開発用。
-- Web ブラウザ版とは差異がある。
+- Web ブラウザ版とは差異があります。
 
 #### [Log File Highlighter](https://marketplace.visualstudio.com/items?itemName=emilast.LogFileHighlighter)
 
-- .log ファイルに色がつくようになる。
-- デフォルトの動作で十分であればこの拡張機能は不要。
+- .log ファイルにカラーハイライトを追加します。
+- デフォルトの動作で十分であればこの拡張機能は不要です。
 
 ---
 
@@ -241,41 +243,41 @@ var enabled = false;
 
 #### [REST Client](https://marketplace.visualstudio.com/items?itemName=humao.rest-client)
 
-- エディター上に書いた内容をもとに HTTP リクエストを送信できるようになる。
-- cURL リクエスト、GraphQL リクエストにも対応。
-- command + option + C（Ctrl + Alt + C）で、各種言語に応じたリクエスト送信までのコードを自動生成する。
-- テキストファイルの拡張子を .http または .rest にすると、シンタックスハイライトやコード補完のサポートが受けられる。
-- 変数を使用できる。（.http または .rest のみ）
+- エディター上に書いた内容をもとに HTTP リクエストを送信できるようになります。
+- cURL リクエスト、GraphQL リクエストにも対応しています。
+- command + option + C（Ctrl + Alt + C）で、各種言語に応じたリクエスト送信までのコードを自動生成します。
+- テキストファイルの拡張子を .http または .rest にすると、シンタックスハイライトやコード補完のサポートが受けられます。
+- ファイル内で変数を使用できます（.http または .rest の場合のみ）。
 - サンプルファイルは[こちら](./sample/REST_Client.http)
 
 #### [Color Highlight](https://marketplace.visualstudio.com/items?itemName=naumovs.color-highlight)
 
-- CSS のカラーコードにカーソルを乗せると、ピッカーを表示してくれる。
-- ピッカーから色を変更することも可能。
-- VS Color Picker も人気だが個人的にはこちらの方が好み。
+- CSS のカラーコードにカーソルを乗せると、ピッカーが表示されます。
+- ピッカーから色を変更することも可能です。
 
 #### [open in browser](https://marketplace.visualstudio.com/items?itemName=techer.open-in-browser)
 
-- HTML ファイルをブラウザで開くことが可能になる。その場で素早く確認したい場合など。
-- .vue ファイルなどコンパイルが必要なファイルは当然開けない。
+- HTML ファイルをブラウザで開くことが可能になります。その場で素早く確認したい場合などに良いでしょう。
+- もちろん .vue ファイルなどのコンパイルが必要なファイルは開けません。
 
 #### [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
 
-- ステータスバーの「Go live」をクリックすると、ローカルサーバを起動できるようになる。
-- http://127.0.0.1:5500 で起動する。
-- 最近は docker で起動させて HTML など確認することが多いので使っていない。
+- ステータスバーの「Go live」をクリックすると、ローカルサーバを起動できるようになります。
+- http://127.0.0.1:5500 で起動します。
+- Docker でサーバを起動させて HTML などを確認する場合には使う機会が少ないでしょう。
 
 #### [HTML Snippets](https://marketplace.visualstudio.com/items?itemName=abusaidm.html-snippets)
 
-- HTML 用スニペット集。
-- VSCode に最初から用意されているのでインストール不要。（詳細は[こちら](./doc/VSCode_snippets.md)）
+- HTML 用スニペット集です。
+- VSCode に最初から用意されているのでインストール不要です。
+- このスニペットに関する詳細は[こちら](./doc/VSCode_snippets.md)。
 
 ### JavaScript 系
 
 #### [JavaScript Snippet Pack](https://marketplace.visualstudio.com/items?itemName=akamud.vscode-javascript-snippet-pack)
 
-- JavaScript 用スニペット集。ES6 構文以降のものが含まれていない。
-- なお、VSCode に最初から用意されているスニペット集は[こちら](./doc/VSCode_snippets.md)
+- JavaScript 用スニペット集です。ES6 構文以降のものが含まれていません。
+- なお、VSCode に最初から用意されているスニペットに関する詳細は[こちら](./doc/VSCode_snippets.md)。
 
 ```js
 // 例）
@@ -297,7 +299,7 @@ JSON.parse(obj);
 
 #### [JavaScript (ES6) code snippets](https://marketplace.visualstudio.com/items?itemName=xabikos.JavaScriptSnippets)
 
-- JavaScript 用スニペット集。ES6 構文のものが含まれている。
+- JavaScript 用スニペット集。ES6 構文のものが含まれています。
 
 ```js
 // 例）
@@ -346,31 +348,30 @@ $.get("url", data,
 
 #### [Document This](https://marketplace.visualstudio.com/items?itemName=joelday.docthis)
 
-- JavaScript 開発用。「/\*\*」を入力後 Enter、もしくは control + option + D（Ctrl + Alt + D）を 2 回実行で、ドキュメンテーションコメントのひな形を生成できるようになる。
-- ドキュメンテーションコメント自体は VSCode に最初から用意されているが、@return が生成されないなど挙動が微妙なので、無効にしている。
-  （VSCode の設定「completeJSDocs」を OFF にすることで、デフォルトのドキュメンテーションコメントを無効にできる。）
+- JavaScript 開発用。「/\*\*」を入力後 Enter、もしくは control + option + D（Ctrl + Alt + D）を 2 回実行することで、ドキュメンテーションコメントのひな形を生成できるようになります。
+- ドキュメンテーションコメント自体は VSCode に最初から用意されていますが、@return が生成されないなど挙動が良くないので、無効にしてこの拡張機能を利用することを推奨します。（VSCode の設定「completeJSDocs」を OFF にすることで、デフォルトのドキュメンテーションコメントを無効にできます。）
 
 #### [Quokka.js](https://marketplace.visualstudio.com/items?itemName=WallabyJs.quokka-vscode)
 
-- JavaScript または TypeScript のコードをリアルタイムでコードの内容を実行、評価してくれる。
-- command + K → J（Ctrl + K → J）で開いたファイル内で JavaScript コードを記述する。command + K → T（Ctrl + K → T）で TypeScript。
-- ちょっとした処理を試してみたい時に最適。
-- 記述したコードのカバレッジも確認できる。
-- Pro 版の通知頻度が高く、邪魔に感じる。
+- JavaScript または TypeScript のコードをリアルタイムでコードの内容を実行、評価します。
+- command + K → J（Ctrl + K → J）で開いたファイル内に、 JavaScript のコードを記述します。command + K → T（Ctrl + K → T）で TypeScript です。
+- ちょっとした処理を試してみたい場合に適しています。
+- 記述したコードのカバレッジも確認できます。
+- 通知頻度が高いのが欠点です。
 
 #### [Vetur](https://marketplace.visualstudio.com/items?itemName=octref.vetur)
 
-- vue.js 開発用。
+- Vue.js 開発用。
 
 #### [npm](https://marketplace.visualstudio.com/items?itemName=eg2.vscode-npm-script)
 
-- package.json で定義された npm スクリプトを実行できるようになる。
-- モジュールがインストール済みか確認することも可能。
-- yarn 版もある。
+- package.json で定義された npm スクリプトを実行できるようになります。
+- モジュールがインストール済みか確認することも可能です。
+- yarn 版もあります。
 
 #### [Import Cost](https://marketplace.visualstudio.com/items?itemName=wix.vscode-import-cost)
 
-- JavaScript や TypeScript で import したファイル容量を表示してくれる。
+- JavaScript や TypeScript で import したファイル容量を表示します。
 
 ### Perl 系
 
@@ -387,18 +388,18 @@ $.get("url", data,
 
 #### [Python Docstring Generator（旧：autoDocstring）](https://marketplace.visualstudio.com/items?itemName=njpwerner.autodocstring)
 
-- Python 開発用。「"」を 3 回入力後 Enter で、ドキュメンテーションコメントのひな形を生成できるようになる。
-- Google スタイルや numpy スタイルに変更することも可能。
+- Python 開発用。「"」を 3 回入力後 Enter で、ドキュメンテーションコメントのひな形を生成できるようになります。
+- Google スタイルや numpy スタイルに変更することも可能です。
 
 #### [Python Extended](https://marketplace.visualstudio.com/items?itemName=tushortz.python-extended-snippets)
 
-- Python 開発用。入力候補をより多く表示してくれる。
-- python snippets も入れていると、入力候補が大量に出てくる。
+- Python 開発用。入力候補をより多く表示します。
+- python snippets もインストールしていると、入力候補が大量に出てきます。
 
 #### [python snippets](https://marketplace.visualstudio.com/items?itemName=frhtylcn.pythonsnippets)
 
 - Python 用スニペット集。
-- 普通のスニペットというより、使用例を表示する機能と考えた方がいい。
+- 普通のスニペット集というより、使用例を表示する機能と考えた方が良いでしょう。
 
 ```py
 # 例）
@@ -456,6 +457,6 @@ print('{} is {} years old'.format( woo.name, woo.age))
 
 #### [Regex Previewer](https://marketplace.visualstudio.com/items?itemName=chrmarti.regex)
 
-- 正規表現の動作確認を手軽に行えるようになる。
+- 正規表現の動作確認を手軽に行えるようになります。
 
 ![example](https://raw.githubusercontent.com/chrmarti/vscode-regex/master/images/in_action.gif)
