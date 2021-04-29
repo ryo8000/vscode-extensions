@@ -1,101 +1,101 @@
 {
-  // デバッグ中に行内に変数値を表示
+  // Show variable values inline while debugging.
   "debug.inlineValues": true,
-  // デバッグコンソールの表示方法
+  // How to show the debug console
   "debug.internalConsoleOptions": "openOnSessionStart",
-  // デバッグビューの表示方法
+  // How to show the debug view.
   "debug.openDebug": "openOnSessionStart",
-  // テキストコピー時に書式設定を含める
+  // Whether formatting should be included when copying text.
   "editor.copyWithSyntaxHighlighting": false,
-  // ドラッグアンドドロップで選択範囲のテキストを移動できるようにする
+  // Whether the editor should allow moving selected text via drag and drop.
   "editor.dragAndDrop": false,
-  // 貼り付けを行ったときに自動でフォーマット
+  // Automatically format when pasting.
   "editor.formatOnPaste": true,
-  // ファイル保存時に自動でフォーマット
+  // Automatically format when saving.
   "editor.formatOnSave": true,
-  // 入力した行を自動でフォーマット
+  // Automatically format the line after typing.
   "editor.formatOnType": true,
-  // ミニマップの最大幅
+  // Maximum width of the minimap.
   "editor.minimap.maxColumn": 60,
-  // ミニマップのスライダーの表示方法
+  // How to show the slider in the minimap.
   "editor.minimap.showSlider": "always",
-  // ミニマップのサイズ
+  // Size of the minimap.
   "editor.minimap.size": "fit",
-  // 制御文字を表示
+  // Render control characters.
   "editor.renderControlCharacters": true,
-  // エディター上での空白文字の表示方法
+  // How to render whitespace characters.
   "editor.renderWhitespace": "all",
-  // 行の折りたたみ記号の表示方法
+  // How to show the folding symbols
   "editor.showFoldingControls": "always",
-  // 1つのタブに相当する半角スペースの数
+  // The number of spaces a tab is equal to.
   "editor.tabSize": 2,
-  // 単語の区切り文字
+  // Characters that will be used as word separators.
   "editor.wordSeparators": "`~!@#$%^&*()-=+[{]}\\|;:'\",.<>/?　、。！？「」【】『』（）",
-  // 行の折り返し表示
+  // Whether lines should wrap.
   "editor.wordWrap": "on",
-  // 名前重複時の名前付け規則
+  // Naming strategy for duplicate names.
   "explorer.incrementalNaming": "smart",
-  // 言語に対するファイルの関連付け
+  // Associating files with languages.
   "files.associations": {
-    // あれば記述する
+    // Defined it if you need it.
   },
-  // 改行コードの規定値
+  // The default end of line character.
   "files.eol": "\n",
-  // 非表示にするファイル・ディレクトリのパスのパターン
+  // Path patterns of files and directories to hide.
   "files.exclude": {
-    // あれば記述する
+    // Defined it if you need it.
   },
-  // ファイル保存時に行末に改行を挿入
+  // Insert a final new line at the end of the file when saving it.
   "files.insertFinalNewline": true,
-  // ファイル保存時に最終行以降の空行を削除
+  // Remove blank lines after the final line when saving a file.
   "files.trimFinalNewlines": true,
-  // ファイル保存時に各行の末尾にある半角スペースを削除
+  // Remove spaces at the end of each line when saving a file.
   "files.trimTrailingWhitespace": true,
-  // 監視対象から外すファイル・ディレクトリのパスのパターン
+  // Path patterns of files and directories to be excluded from monitoring.
   "files.watcherExclude": {
     "**/images/**": true,
   },
-  // 検索対象から外すファイル・ディレクトリのパスのパターン
+  // Path patterns of files and directories to be excluded from the search.
   "search.exclude": {
-    //あれば記述する
+    // Defined it if you need it.
   },
-  // 検索ビューの検索結果に行数を併記
+  // Whether to show line numbers for search results in the search view.
   "search.showLineNumbers": true,
-  // アクティブなターミナルセッションがある場合、終了時に確認を行う
+  // Whether to confirm on exit if there are active terminal sessions.
   "terminal.integrated.confirmOnExit": true,
-  // ターミナルで選択したテキストをクリップボードにコピー
+  // Whether text selected in the terminal will be copied to the clipboard.
   "terminal.integrated.copyOnSelection": true,
-  // エディターのタブのサイズ
+  // Editor tab size.
   "workbench.editor.tabSizing": "shrink",
-  // ファイルアイコンテーマ
+  // File icon theme.
   "workbench.iconTheme": "material-icon-theme",
-  // 起動時に表示するエディター
+  // Which editor is shown at startup.
   "workbench.startupEditor": "readme",
-  /* 各言語、ファイル固有の設定 */
+  /* Specific settings for each language and file. */
   "[csv]": {
-    // 行の折り返し表示
+    // Whether lines should wrap.
     "editor.wordWrap": "off",
   },
   "[json]": {
-    // 既定のフォーマッター
+    // Default formatter.
     "editor.defaultFormatter": "esbenp.prettier-vscode",
   },
   "[jsonc]": {
-    // 既定のフォーマッター
+    // Default formatter.
     "editor.defaultFormatter": "esbenp.prettier-vscode",
   },
   "[log]": {
-    // 行の折り返し表示
+    // Whether lines should wrap.
     "editor.wordWrap": "off",
   },
   "[python]": {
-    // 1つのタブに相当する半角スペースの数
+    // The number of spaces a tab is equal to.
     "editor.tabSize": 4,
   },
   "[tsv]": {
-    // Tabキーで半角スペースを挿入
+    // Insert spaces when pressing `Tab`.
     "editor.insertSpaces": false,
-    // 行の折り返し表示
+    // Whether lines should wrap.
     "editor.wordWrap": "off",
   },
 }
