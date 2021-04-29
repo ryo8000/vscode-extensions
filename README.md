@@ -26,7 +26,7 @@ Within each section, the recommended extensions are listed in order from the top
 
 - This extension allows you to see the commit history, file diffs, etc. in the activity bar.
 - This extension also allows the commit message to be showed at the end of the line.
--
+
 #### [Git History](https://marketplace.visualstudio.com/items?itemName=donjayamanne.githistory)
 
 - This extension allows you to see the commit history, file diffs, etc.
@@ -227,7 +227,7 @@ Within each section, the recommended extensions are listed in order from the top
 - This extension automatically generates the code to send a request according to various languages by typing command + option + C (Ctrl + Alt + C).
 - Syntax highlighting and code completion support is available by setting the text file extension to .http or .rest.
 - You can use variables in the file. (only if it is .http or .rest)
-- The sample file is [here](. /sample/REST_Client.http).
+- The sample file is [here](./sample/REST_Client.http).
 
 #### [Color Highlight](https://marketplace.visualstudio.com/items?itemName=naumovs.color-highlight)
 
@@ -365,7 +365,7 @@ $.get("url", data,
 - For Python development.
 - For more information about the snippets provided, see [here](./doc/Python_snippets.md).
 
-#### [Python Docstring Generator（autoDocstring）](https://marketplace.visualstudio.com/items?itemName=njpwerner.autodocstring)
+#### [Python Docstring Generator (autoDocstring)](https://marketplace.visualstudio.com/items?itemName=njpwerner.autodocstring)
 
 - For Python development. This extension allows you to generate a documentation comment template by typing " three times and then Enter.
 - You can also change the documentation comments to Google style or numpy style.
@@ -381,7 +381,7 @@ $.get("url", data,
 - However, it is better to think of it as the extension that displays usage examples rather than a regular snippet.
 
 ```py
-# 例）
+# Sample:
 # Type built_in.type=>
 a = ('apple', 'banana', 'cherry')
 b = 'Hello World'

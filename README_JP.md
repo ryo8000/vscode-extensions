@@ -174,7 +174,7 @@ var enabled = false;
 - CSV/TSV 開発用。列ごとに色分けして表示します。
 - カーソルを乗せると列数とヘッダをツールチップで表示します。
 - ステータスバーの「Align」をクリックすると、カラム幅を調整して縦の開始位置を揃えます。
-- ステータスバーの「Query」をクリックすると、テーブル形式で表示します。SQLを使うようにデータを抽出することもできます。
+- ステータスバーの「Query」をクリックすると、テーブル形式で表示します。SQL を使うようにデータを抽出することもできます。
 
 #### [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)
 
