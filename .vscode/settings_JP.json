@@ -41,22 +41,18 @@
   "explorer.incrementalNaming": "smart",
   // 言語に対するファイルの関連付け
   "files.associations": {
-    "**/.git": true,
-    "**/.svn": true,
-    "**/.hg": true,
-    "**/CVS": true,
-    "**/.DS_Store": true,
-    "**/Thumbs.db": true,
     // あれば記述する
   },
   // 改行コードの規定値
   "files.eol": "\n",
   // 非表示にするファイル・ディレクトリのパスのパターン
   "files.exclude": {
-    "**/.git/objects/**": true,
-    "**/.git/subtree-cache/**": true,
-    "**/node_modules/*/**": true,
-    "**/.hg/store/**": true,
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true,
     // あれば記述する
   },
   // ファイル保存時に行末に改行を挿入
@@ -67,6 +63,11 @@
   "files.trimTrailingWhitespace": true,
   // 監視対象から外すファイル・ディレクトリのパスのパターン
   "files.watcherExclude": {
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    "**/node_modules/*/**": true,
+    "**/.hg/store/**": true,
+    // あれば記述する
     "**/images/**": true,
   },
   // 検索対象から外すファイル・ディレクトリのパスのパターン

@@ -41,22 +41,18 @@
   "explorer.incrementalNaming": "smart",
   // Associating files with languages.
   "files.associations": {
-    "**/.git": true,
-    "**/.svn": true,
-    "**/.hg": true,
-    "**/CVS": true,
-    "**/.DS_Store": true,
-    "**/Thumbs.db": true,
     // Defined it if you need it.
   },
   // The default end of line character.
   "files.eol": "\n",
   // Path patterns of files and directories to hide.
   "files.exclude": {
-    "**/.git/objects/**": true,
-    "**/.git/subtree-cache/**": true,
-    "**/node_modules/*/**": true,
-    "**/.hg/store/**": true,
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true,
     // Defined it if you need it.
   },
   // Insert a final new line at the end of the file when saving it.
@@ -67,6 +63,11 @@
   "files.trimTrailingWhitespace": true,
   // Path patterns of files and directories to be excluded from monitoring.
   "files.watcherExclude": {
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    "**/node_modules/*/**": true,
+    "**/.hg/store/**": true,
+    // Defined it if you need it.
     "**/images/**": true,
   },
   // Path patterns of files and directories to be excluded from the search.
