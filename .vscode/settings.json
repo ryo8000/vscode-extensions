@@ -41,12 +41,22 @@
   "explorer.incrementalNaming": "smart",
   // Associating files with languages.
   "files.associations": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true,
     // Defined it if you need it.
   },
   // The default end of line character.
   "files.eol": "\n",
   // Path patterns of files and directories to hide.
   "files.exclude": {
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    "**/node_modules/*/**": true,
+    "**/.hg/store/**": true,
     // Defined it if you need it.
   },
   // Insert a final new line at the end of the file when saving it.
@@ -61,6 +71,9 @@
   },
   // Path patterns of files and directories to be excluded from the search.
   "search.exclude": {
+    "**/node_modules": true,
+    "**/bower_components": true,
+    "**/*.code-search": true,
     // Defined it if you need it.
   },
   // Whether to show line numbers for search results in the search view.
