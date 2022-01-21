@@ -5,6 +5,8 @@
   "debug.internalConsoleOptions": "openOnSessionStart",
   // How to show the debug view.
   "debug.openDebug": "openOnSessionStart",
+  // Whether to enable bracket pair coloring.
+  "editor.bracketPairColorization.enabled": true,
   // Whether formatting should be included when copying text.
   "editor.copyWithSyntaxHighlighting": false,
   // Whether the editor should allow moving selected text via drag and drop.
@@ -15,6 +17,8 @@
   "editor.formatOnSave": true,
   // Automatically format the line after typing.
   "editor.formatOnType": true,
+  // Whether to show a line of the same color between bracket pairs.
+  "editor.guides.bracketPairs": true,
   // Maximum width of the minimap.
   "editor.minimap.maxColumn": 60,
   // How to show the slider in the minimap.

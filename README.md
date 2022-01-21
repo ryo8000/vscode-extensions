@@ -89,6 +89,7 @@ Within each section, the recommended extensions are listed in order from the top
 - This extension colorizes brackets. Pairs of brackets have the same color.
 - A line of the same color as the bracket will also be showed between the brackets.
 - This extension makes it easier to see which brackets are paired with each other.
+- This is provided in VSCode, so you do not need to install it.
 
 ![example](https://raw.githubusercontent.com/CoenraadS/BracketPair/master/images/example.png)
 

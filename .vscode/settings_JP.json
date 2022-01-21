@@ -5,6 +5,8 @@
   "debug.internalConsoleOptions": "openOnSessionStart",
   // デバッグビューの表示方法
   "debug.openDebug": "openOnSessionStart",
+  // ペア関係の括弧をカラーリングする
+  "editor.bracketPairColorization.enabled": true,
   // テキストコピー時に書式設定を含める
   "editor.copyWithSyntaxHighlighting": false,
   // ドラッグアンドドロップで選択範囲のテキストを移動できるようにする
@@ -15,6 +17,8 @@
   "editor.formatOnSave": true,
   // 入力した行を自動でフォーマット
   "editor.formatOnType": true,
+  // ペア関係の括弧の間に同色の線を表示する
+  "editor.guides.bracketPairs": true,
   // ミニマップの最大幅
   "editor.minimap.maxColumn": 60,
   // ミニマップのスライダーの表示方法

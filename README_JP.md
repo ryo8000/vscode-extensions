@@ -93,6 +93,7 @@ Visual Studio Code のおすすめの拡張機能です。
 - 括弧に色がつきます。ペアの括弧は同じ色になります。
 - 括弧の間にも同色の線が表示されます。
 - どの括弧がペア関係にあるのかが分かりやすくなります。
+- VSCode に最初から用意されているのでインストール不要です。
 
 ![example](https://raw.githubusercontent.com/CoenraadS/BracketPair/master/images/example.png)
 
