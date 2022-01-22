@@ -80,7 +80,7 @@
   // 検索ビューの検索結果に行数を併記
   "search.showLineNumbers": true,
   // アクティブなターミナルセッションがある場合、終了時に確認を行う
-  "terminal.integrated.confirmOnExit": true,
+  "terminal.integrated.confirmOnExit": "always",
   // ターミナルで選択したテキストをクリップボードにコピー
   "terminal.integrated.copyOnSelection": true,
   // エディターのタブのサイズ

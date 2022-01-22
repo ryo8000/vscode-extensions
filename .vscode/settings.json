@@ -80,7 +80,7 @@
   // Whether to show line numbers for search results in the search view.
   "search.showLineNumbers": true,
   // Whether to confirm on exit if there are active terminal sessions.
-  "terminal.integrated.confirmOnExit": true,
+  "terminal.integrated.confirmOnExit": "always",
   // Whether text selected in the terminal will be copied to the clipboard.
   "terminal.integrated.copyOnSelection": true,
   // Editor tab size.
