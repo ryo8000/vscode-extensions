@@ -1,6 +1,6 @@
 {
   // Show variable values inline while debugging.
-  "debug.inlineValues": true,
+  "debug.inlineValues": "on",
   // How to show the debug console
   "debug.internalConsoleOptions": "openOnSessionStart",
   // How to show the debug view.

@@ -1,6 +1,6 @@
 {
   // デバッグ中に行内に変数値を表示
-  "debug.inlineValues": true,
+  "debug.inlineValues": "on",
   // デバッグコンソールの表示方法
   "debug.internalConsoleOptions": "openOnSessionStart",
   // デバッグビューの表示方法
